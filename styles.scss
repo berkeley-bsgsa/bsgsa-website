@@ -1,0 +1,24 @@
+// see https://quarto.org/docs/output-formats/html-themes.html#sass-variables
+
+/*-- scss:defaults --*/
+
+// $h2-font-size:          1.6rem !default;
+// $headings-font-weight:  500 !default;
+// $body-color:            $gray-700 !default;
+
+$white: #fff !default;
+
+$bsgsa-blue1: #02305c !default;
+$bsgsa-blue2: #00b0da !default;
+$berkeley-blue: #003262 !default;
+$berkeley-gold: #c4820e !default;
+
+$navbar-bg: shade-color($bsgsa-blue1, 13%) !default;
+$navbar-fg: rgba($white, .75) !default;
+$navbar-hl: $white !default;
+
+/*-- scss:rules --*/
+
+.navbar-dark .navbar-brand {
+    color: $white;
+}

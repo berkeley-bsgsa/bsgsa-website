@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "Biostat Grad Student Association (BSGSA)"
+  page-navigation: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - sidebar:resources
+
+  sidebar:
+    - id: resources
+      title: "Resources"
+      contents:
+        - file: resources/index.qmd
+          text: "Overview"
+        - file: resources/academic.qmd
+          text: "Academic"
+
+format:
+  html:
+    theme:
+      - simplex
+      - styles.scss
+    toc: true
