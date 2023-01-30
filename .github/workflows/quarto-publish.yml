@@ -1,9 +1,11 @@
 # modified from https://github.com/quarto-dev/quarto-actions/blob/main/examples/quarto-publish-example.yml
 #
-# run the following once locally to configure quarto to publish through GitHub Actions:
+# If the GitHub Pages site doesn't exist yet, then you first need to run the
+# following once locally to configure quarto to publish through GitHub Actions:
 #
 #   quarto publish gh-pages
 #
+# Afterwards, this workflow will take care of publishing new changes on push.
 
 on:
   push:
